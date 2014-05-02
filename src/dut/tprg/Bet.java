@@ -70,23 +70,23 @@ public class Bet {
 		// TODO Auto-generated method stub
 		for(int i=0;i<10;i++) {
 			Bet b = new Bet(10,"red");
-			System.out.println("Bet - getSpinResult:"+b.getSpinResult());
-			System.out.println("Bet - getSpinColor:"+b.getSpinColor());
-			System.out.println("Bet - didWeWin:"+b.didWeWin());
-			System.out.println("Bet - getPayout:"+b.getPayout());
+			System.out.print("Bet - getSpinResult:"+b.getSpinResult());
+			System.out.print(", getSpinColor:"+b.getSpinColor());
+			System.out.print(", didWeWin:"+b.didWeWin());
+			System.out.println(", getPayout:"+b.getPayout());
 		}
 
 		for(int i=0;i<50;i++) {
 			Bet b = new Bet(10,"5");
-			System.out.println("Bet - getSpinResult:"+b.getSpinResult());
-			System.out.println("Bet - getSpinColor:"+b.getSpinColor());
-			System.out.println("Bet - didWeWin:"+b.didWeWin());
-			System.out.println("Bet - getPayout:"+b.getPayout());
+			System.out.print("Bet - getSpinResult:"+b.getSpinResult());
+			System.out.print(", getSpinColor:"+b.getSpinColor());
+			System.out.print(", didWeWin:"+b.didWeWin());
+			System.out.println(", getPayout:"+b.getPayout());
 			b = new Bet(10,"36");
-			System.out.println("Bet - getSpinResult:"+b.getSpinResult());
-			System.out.println("Bet - getSpinColor:"+b.getSpinColor());
-			System.out.println("Bet - didWeWin:"+b.didWeWin());
-			System.out.println("Bet - getPayout:"+b.getPayout());
+			System.out.print("Bet - getSpinResult:"+b.getSpinResult());
+			System.out.print(", getSpinColor:"+b.getSpinColor());
+			System.out.print(", didWeWin:"+b.didWeWin());
+			System.out.println(", getPayout:"+b.getPayout());
 		}
 
 	}
